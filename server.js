@@ -8,9 +8,9 @@ var mongodb = require('mongodb');
 var Schema = mongoose.Schema;
 
 //mongodb+srv://zigotaTestova:qN12HlAtSTYce87V@cluster0.a6zzn.mongodb.net/Cluster0?retryWrites=true&w=majority
-const password = 'qN12HlAtSTYce87V';
+const password = '**********';
 
-mongoose.connect('mongodb+srv://zigotaTestova:qN12HlAtSTYce87V@cluster0.a6zzn.mongodb.net/Cluster0?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true }); 
+mongoose.connect('mongodb+srv://zigotaTestova:**********@cluster0.a6zzn.mongodb.net/Cluster0?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true }); 
 
 
 var counter = 0;
@@ -20,10 +20,10 @@ var URLs = new Schema({
     short_url: String
 })
 
-const url_model = mongoose.model("peepeepoopoo", URLs);
+const url_model = mongoose.model("URLs", URLs);
 // url_model.deleteMany({short_url: /\d+/}, (err,data)=>{
 //     if(err){
-//         console.log("DELETEMANY******************************")
+//         console.log("DELETEMANY")
 //     }
 // })
 
