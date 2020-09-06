@@ -1,0 +1,61 @@
+#body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    font-size:large;
+    height:90vh;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+footer{
+    margin-top:10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color:rgb(220, 157, 20);
+}
+
+a{
+    text-decoration: none;
+    color:rgb(255, 217, 0);
+    text-shadow: 2px 2px 2px rgb(255, 174, 0);
+}   
+
+h1{
+    font-size:60px;
+    color:whitesmoke;
+    margin-bottom: 10px;
+} 
+
+form{
+    box-sizing: border-box;
+    width:630px;
+}
+
+input{
+    padding:10px;
+    width:100%;
+    box-sizing: border-box;
+    font-size:40px;
+    color:rgb(20, 220, 160);
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(97, 83, 187);
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+button{
+    background-color: darkslateblue;
+    font-size:40px;
+    padding:10px;
+    outline: none;
+    width:100%;
+    color:rgb(20, 220, 160);
+    border:none;
+    border-radius: 5px;
+    font-family: 'Barlow Condensed', sans-serif;
+    cursor: pointer;
+}
