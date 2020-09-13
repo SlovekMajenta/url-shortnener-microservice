@@ -7,7 +7,7 @@ var mongoose = require('mongoose');
 var mongodb = require('mongodb');
 var Schema = mongoose.Schema;
 
-//mongodb+srv://zigotaTestova:*************@cluster0.a6zzn.mongodb.net/Cluster0?retryWrites=true&w=majority
+//mongodb+srv://**********:*************@cluster0.a6zzn.mongodb.net/Cluster0?retryWrites=true&w=majority
 const password = '**********';
 
 mongoose.connect('mongodb+srv://zigotaTestova:**********@cluster0.a6zzn.mongodb.net/Cluster0?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true }); 
